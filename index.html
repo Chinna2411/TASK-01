@@ -13,11 +13,17 @@
 
 <body>
    <div class="container">
-      <h1 class="section-one__name">Reestar</h1>
+
       <nav class="navbar">
-         <a href="" class="">Home</a>
-         <a href="" class="">Recipe</a>
-         <a href="" class="">Contact</a>
+         <h1 class="section-one__name">Reestar</h1>
+         <ul>
+            <li> <a href="">Home |</a>
+            </li>
+            <li> <a href="">Recipe |</a>
+            </li>
+            <li> <a href="">Contact</a>
+            </li>
+         </ul>
       </nav>
 
       <div>
@@ -51,36 +57,36 @@
             <button class="section-five__button">Order Now</button>
 
          </div>
-         <div class="contact-box">
+         <div class="contact">
+            <div class="section-six">
+               <h2 class="section-six__title">Contact Us</h2>
+            </div>
+            <table>
+               <tr>
+                  <td>Name:</td>
+                  <td><input type="text" placeholder="Name"></td>
+               </tr>
+               <tr>
+                  <td>Age:</td>
+                  <td><input type="number" placeholder="Age"></td>
+               </tr>
+               <tr>
+                  <td>Email:</td>
+                  <td><input type="email" placeholder="Email"></td>
+               </tr>
+            </table>
+            <div class="send-container">
 
-            <h2 class="section-six">Contact Us</h2>
-            <form>
-               <table>
-                  <tr>
-                     <td class="section-six__name">Name:</td>
-                     <td><input type="text" placeholder="Name" class="contact-box__input"></td>
-                  </tr>
+               <button type="send-button">Send</button>
+            </div>
 
-                  <tr>
-                     <td class="section-six__name">Age:</td>
-                     <td><input type="number" placeholder="Age" class="contact-box__input"></td>
-                  </tr>
-
-                  <tr>
-                     <td class="section-six__name">Email:</td>
-                     <td><input type="email" placeholder="Email" class="contact-box__input"></td>
-                  </tr>
-                  <tr>
-                     <td colspan="2">
-                        <button type="submit" class="contact-box__submit">Send</button>
-                     </td>
-                  </tr>
-
-            </form>
          </div>
-
-
       </div>
+      </form>
+   </div>
+
+
+   </div>
 
    </div>
 </body>
